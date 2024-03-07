@@ -4,7 +4,10 @@ import Button from '../button';
 
 export default function Stats({planets, vehicles, people}) {
 
-    const date = "02 Mars 2023";
+    const newDate = new Date().toString().slice(4,15).split(" ")
+    console.log(newDate);
+    const date = newDate[1] + " " + newDate[0] + " " + newDate[2]
+    console.log(date);
     const data = [
         {
             image: images.Users,

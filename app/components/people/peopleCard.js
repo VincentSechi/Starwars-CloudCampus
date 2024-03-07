@@ -44,7 +44,7 @@ export default function PeopleCard({people, films, planets, onClick}) {
         <div    
             onClick={() => handleClick(people,films, planets)}
             className="max-w-[150px] text-center my-5 mx-auto cursor-pointer px-5 py-2 bg-black w-fit border-2 font-bold border-white uppercase text-white hover:text-black hover:bg-white duration-300 transition-all">
-            plus d&resquo;info
+            plus d'info
         </div>
     </div>
   )

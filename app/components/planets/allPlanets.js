@@ -41,7 +41,6 @@ export default function AllPlanets({data, onClick}) {
 
     const handleSearch = (e) => {
         let tmp = [];
-        
         data.map((planet) => {
                 if(planet.name.includes(e.target.value)){
                     tmp.push(planet)
